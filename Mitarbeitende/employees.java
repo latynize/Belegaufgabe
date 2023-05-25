@@ -1,8 +1,13 @@
-public class Mitarbeitende {
+public class employees {
     private String name;
     private char gender;
     private String birthdate;
 
+    public employees(String name, char gender, String birthdate) {
+        this.name = name;
+        this.gender = gender;
+        this.birthdate = birthdate;
+    }
     
     public String getName() {
         return name;
