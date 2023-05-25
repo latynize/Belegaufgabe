@@ -1,6 +1,0 @@
-public class Mitarbeitende {
-    private String name;
-    private char gender;
-    private String birthdate;
-    
-}
